@@ -1,0 +1,7 @@
+<application>
+  <component name="AbbreviationManager">
+    <abbreviations>
+      <action id="Console.Transaction.Commit" />
+    </abbreviations>
+  </component>
+</application>
