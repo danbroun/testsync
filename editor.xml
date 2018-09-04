@@ -1,0 +1,31 @@
+<application>
+  <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="CONSOLE" />
+  </component>
+  <component name="TodoConfiguration">
+    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="TODO">
+      <option name="FOREGROUND" value="73bf" />
+      <option name="FONT_TYPE" value="3" />
+      <option name="ERROR_STRIPE_COLOR" value="54aae3" />
+    </pattern>
+    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="FIXME">
+      <option name="FOREGROUND" value="73bf" />
+      <option name="FONT_TYPE" value="3" />
+      <option name="ERROR_STRIPE_COLOR" value="54aae3" />
+    </pattern>
+    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="TODO.*wwimmer">
+      <option name="FOREGROUND" value="73bf" />
+      <option name="FONT_TYPE" value="3" />
+      <option name="ERROR_STRIPE_COLOR" value="54aae3" />
+    </pattern>
+    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="FIXME.*wwimmer">
+      <option name="FOREGROUND" value="73bf" />
+      <option name="FONT_TYPE" value="3" />
+      <option name="ERROR_STRIPE_COLOR" value="54aae3" />
+    </pattern>
+    <filter name="wwimmer">
+      <pattern index="2" />
+      <pattern index="3" />
+    </filter>
+  </component>
+</application>

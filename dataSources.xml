@@ -1,0 +1,459 @@
+<application>
+  <component name="dataSourceStorage" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="DEV_CR" uuid="a9983a93-7973-4bb6-8282-509f6fa60d77">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@CR_DEV.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="DB_BR" read-only="true" group="PROD" uuid="237e1d53-27c1-4261-b65d-e3aae826b6a1">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@br_db.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="QA_UK" group="QA" uuid="956bb542-db5b-468c-9586-f505e1eebd13">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@UK_QA.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="DB_KI" read-only="true" group="PROD" uuid="0410d026-8bc0-4872-8b75-f3aceb06ba53">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@ki_db.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="DB_ALZDB" group="PROD" uuid="d02020a8-6dcd-48e5-b487-ffb126ad9390">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@alzdb.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="DB_AV" read-only="true" group="PROD" uuid="f79d5592-11b5-4de8-a12a-a979bd3cd3b0">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@av_db.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="QA_KI" group="QA" uuid="2f4ba9a5-e6f4-4cf7-9ae8-309da0d81d87">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@KI_QA.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="DB_PL" read-only="true" group="PROD" uuid="e65c62f0-7d1b-450e-bef1-168d5926c66f">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@pl_db.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="DB_RO" read-only="true" group="PROD" uuid="3954392e-ffa5-418c-ae4c-ad186297334f">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@RO_DB.WORLD</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="DB_DV" read-only="true" group="PROD" uuid="7e519567-5ddd-42ca-ba0b-445bce74d964">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@dv_db.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="DB_DB" read-only="true" group="PROD" uuid="f3c0ec6f-dc21-487c-a7b7-b110a177f709">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@db_db.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="DB_UK" read-only="true" group="PROD" uuid="e752bfa3-fcbe-4e60-8f23-7a13ccaf34b7">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@UK_DB.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="DB_AGRO" read-only="true" group="PROD" uuid="a20c8023-7572-4238-b96d-ff9e6e8cb529">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@agro_db.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="DB_KO" read-only="true" group="PROD" uuid="d0e34418-4dfa-4e05-a963-27bbe40db1e9">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@ko_db.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="QA_ALZDB" group="QA" uuid="db92db24-124c-4cb2-aa68-b3de13cd194f">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@ALZDB_QA.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="TEST_DB" uuid="dd1765ff-a7ed-46f0-b9c5-35c41a58e9b8">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@TEST_DB.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="DEV_TEST_DB" uuid="2aee6497-91c8-407b-ab58-61a1c622c3d7">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@TEST_DB_DEV.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="QA_KO" group="QA" uuid="005fd847-8cb2-41c4-a839-c22051122a23">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@KO_QA.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="DB_DBZ" read-only="true" group="PROD" uuid="06c0a336-4f1f-43db-abe5-f853a2c54817">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@dbz.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="DB_OD" read-only="true" group="PROD" uuid="beb98966-26d5-4c2c-85be-533a1d7f06e8">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@br_db.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="DB_LW" read-only="true" group="PROD" uuid="e88545be-bfdc-40a1-a9c4-5b2bb533abe2">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@lw_db.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="DB_ASK" group="PROD" uuid="42baf81b-d95d-419f-847b-1ee51686c8f9">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@ask_db.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="QA_LW" group="QA" uuid="66617f84-5a14-4a86-9504-e2509e2b7345">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@LW_QA.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="QA_PROJECT1" group="QA" uuid="33fb33bc-e138-4137-bcf2-db113b8d317c">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@PROJECT_QA1.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="QA_BR" group="QA" uuid="5fbd4d02-14df-45dd-8e48-4f04c6dfad6f">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@BR_QA.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="QA_PL" group="QA" uuid="3cbb4c1e-4e00-4cc9-8877-f6b6269bd9c7">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@PL_QA.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="XE_BR" group="PROD" uuid="8ae700cb-bce7-445f-bca8-07f287882403">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@BR_XE.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="DEV_PROJECT2" uuid="6435e27b-073c-4ab5-aa94-46470ac8542c">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@project_dev2.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="TEST_ALZDB" uuid="77c18e11-3a73-4620-97d9-8fefbbf3ebc5">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@ALZDB_TEST.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="DEV_ALZDB" uuid="388e81cc-da1a-4c36-ba14-3552a4d08f1a">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@ALZDB_DEV.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="QA_DV" group="QA" uuid="4b69c1bd-8737-4237-be19-d0b8b093a616">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@DV_QA.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="DB_RC" read-only="true" group="PROD" uuid="ffa02429-74d5-443c-9848-8604be36b4fa">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@av_db.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="QA_KI ALVTLB" group="QA" uuid="56467b57-d98c-4402-8752-cab48bb562c7">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@KI_QA.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="DB_EC" read-only="true" group="PROD" uuid="3f1bad7d-300a-47cb-b2fc-122cb439ef84">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@ec_db.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="DB_MH" read-only="true" group="PROD" uuid="c17fa2c0-9db9-4ccc-8535-0a5ded6b6de2">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@mh_db.world</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="C:\oracle\product\12.2.0\instantclient_12_2\network\admin" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+  </component>
+</application>

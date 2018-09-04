@@ -1,0 +1,9 @@
+<code_scheme name="Default (1)">
+  <SqlCodeStyleSettings>
+    <option name="IDENTIFIER_CASE" value="1" />
+    <option name="QUOTED_IDENTIFIER_CASE" value="1" />
+  </SqlCodeStyleSettings>
+  <XML>
+    <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
+  </XML>
+</code_scheme>

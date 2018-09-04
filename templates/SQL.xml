@@ -1,0 +1,32 @@
+<templateSet group="SQL">
+  <template name="mvupdateZ" value="DECLARE&#10;BEGIN&#10;   mview_refresh_pack.do_refresh (p_mview         =&gt; 'GLOB_PN_PLZ',&#10;                                  p_standort      =&gt; 'BB',&#10;                                  p_async         =&gt; 1&#10;                                 );&#10;END;" description="Update mview for one site from alzdb" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="erg_func" value="  SELECT pr.inr&#10;        ,pr.pnr&#10;        ,pg.name_extern&#10;        ,pg.para_art a&#10;        ,pg.umrechnung_osts osts&#10;        ,pg.signifikanz sig&#10;        ,pg.nk_stellen kom&#10;        ,pg.formel_befund formel&#10;        ,pg.berechnungsart art&#10;        ,sub.get_substanz_bereich( pr.inr, pr.pnr ) substanz&#10;        ,COALESCE(&#10;                   pr.erg5&#10;                  ,pr.erg4&#10;                  ,pr.erg3&#10;                  ,pr.erg2&#10;                  ,pr.erg1&#10;         )&#10;           erg&#10;        ,ergebnis_zusatz.kz( eh.aufnr, eh.analynr, pr.pnr ) kz&#10;        ,ergebnis.ergebnis_ermitteln(&#10;                                      eh.aufnr&#10;                                     ,pr.inr&#10;                                     ,pr.pnr&#10;                                     ,sub.get_substanz_bereich( pr.inr, pr.pnr )&#10;         )&#10;           ergf&#10;        ,pg.bereich&#10;        ,pg.unter_nwg&#10;        ,pg.nwg nwg&#10;        ,pg.bg bg&#10;        ,funktionen_reports.get_nwg_befund( eh.aufnr, pr.inr, pr.pnr ) nwg_b&#10;        ,funktionen_reports.get_bg_befund( eh.aufnr, pr.inr, pr.pnr ) bg_b&#10;    FROM param_art pa&#10;        ,pr_ergeb_e pr&#10;        ,parameter_gesamt pg&#10;        ,erhebdaten eh&#10;   WHERE eh.analynr = pr.inr&#10;     AND pg.inr = pr.pnr&#10;     AND pg.para_art = pa.art&#10;     AND pa.befund = 'J' and pr.pnr=39096&#10;     AND eh.aufnr in (900707)&#10;ORDER BY 1, 2" description="Result function" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="gl" value="SELECT * FROM gl_log ORDER BY time desc;" description="Result function" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="trace" value="BEGIN&#10;  gl.ENABLE_DBMS_OUTPUT();&#10;  gl.SET_LVL('TRACE');  &#10;END;" description="Result function" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="mvupdate" value="BEGIN&#10;    DBMS_MVIEW.refresh('');&#10;END;" description="Update mview in site" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="compile" value="BEGIN&#10;  DBMS_UTILITY.compile_schema( schema =&gt; USER, compile_all =&gt; FALSE );&#10;END;&#10;&#10;SELECT object_name, object_type, 'PRE'&#10;FROM user_objects&#10;WHERE status = 'INVALID';" description="Compile schema and get invalid objects" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+</templateSet>
